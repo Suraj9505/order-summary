@@ -186,19 +186,19 @@ button.cancel:hover{
     }
 
     .plan img{
-        /* min-width: 5%; */
-        max-width: 2em;
-        margin: -1.68em 0 0 -7.5em;
+        min-width: 5%;
+       /*  max-width: 2em; */
+        margin: -2em 0 0 -7.5em;
     }
 
     .plan h4{
         font-size: .9em;
-        margin: -2em 0 0 2em;
+        margin: -2em 0 0 2.5em;
     }
 
     p.price{
-        font-size: .9em;
-        margin: -.5em 0 0 -4em;
+        font-size: .85em;
+        margin: -.5em 0 0 -3.5em;
     }
 
     .plan a{
