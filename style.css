@@ -123,8 +123,10 @@ button.payment:hover{
 
 button.cancel{
     position: absolute;
+    width: 23.5em;
+    height: 3em;
     font-weight: 700;
-    margin: 6em 11em 5em 11em;
+    margin: 6em 11em 5em 3em;
     padding: 1em;
     text-align: center;
     background: transparent;
@@ -145,4 +147,72 @@ button.cancel:hover{
 
 .attribution a { 
     color: hsl(228, 45%, 44%);
+}
+
+
+
+/* for mobile */
+
+@media only screen and (max-width: 375px){
+    body{
+        background-image: url("./pattern-background-mobile.svg");
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .card{
+        height: 30em;
+        width: 20em;
+        text-align: center; 
+        margin: 2em 2em 2em em;
+    }
+
+    h2{
+        font-size: 1.4em;
+        margin-top: -.5em;
+    }
+
+    .content{
+        width: 80%;
+        font-size: .9em;
+        margin: -1em 0 0 2.5em;
+    }
+
+    .plan{
+        width: 17em;
+        height: .8em;
+        padding-bottom: 1.4em;
+        margin: 1em 0 0 1.5em;
+    }
+
+    .plan img{
+        /* min-width: 5%; */
+        max-width: 2em;
+        margin: -1.68em 0 0 -7.5em;
+    }
+
+    .plan h4{
+        font-size: .9em;
+        margin: -2em 0 0 2em;
+    }
+
+    p.price{
+        font-size: .9em;
+        margin: -.5em 0 0 -4em;
+    }
+
+    .plan a{
+        margin: -2.2em 0 0 5.8em;
+    }
+
+    button.payment{
+        width: 20em;
+        height: 3em;
+        margin: 2em 0 0 -10em;
+    }
+
+    button.cancel{
+        margin-left: -12em;
+    }
+    
 }
