@@ -76,6 +76,7 @@ h1{
 
 .plan h2{
     font-weight: 500;
+    white-space: nowrap;
     font-size: 1em;
     position: absolute;
     margin: -1.5em 0 0 2.5em;
