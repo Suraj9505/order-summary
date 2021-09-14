@@ -80,8 +80,9 @@ h2{
     color: var(--dark-blue);
 }
 .plan p{
+    font-size: .95em;
     position: relative;
-    margin: -.1em 0 0 -4.2em;
+    margin: -.1em 0 0 -4em;
 }
 
 .plan a{
